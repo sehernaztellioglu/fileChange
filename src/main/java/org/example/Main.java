@@ -34,14 +34,13 @@ class Main {
         String[] harflerinSayilari = new String[harfler.length()/2];
         String[] harflerinHarfleri = new String[harfler.length()/2];
 
-        for (int i = 0; i < harfler.length(); i++) {
 
-            for (int j = 0; j < harfler.length(); j += 2) {
+        for (int j = 0; j < harfler.length(); j += 2) {
                 harflerinSayilari[j/2] = String.valueOf(harfler.charAt(j));
                 harflerinHarfleri[j/2] = String.valueOf(harfler.charAt(j));
 
-            }
         }
+
 
 
         String sonuc = "";
